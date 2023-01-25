@@ -5,9 +5,9 @@ const NewsListItem = ({story}) => {
 
     return (
         <li className="article">
-            <h3>Title: {story.title}</h3>
-            <h4>Author: {story.by}</h4>
-            <h5>Article: {story.url}</h5>
+            <h3 className="title">Title: {story.title}</h3>
+            <h4 className="author">Author: {story.by}</h4>
+            <h5 className="article-url">Article: {story.url}</h5>
         </li>
 
     )

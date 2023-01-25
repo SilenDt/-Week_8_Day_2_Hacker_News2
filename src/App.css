@@ -16,6 +16,7 @@ body, html {
 .head {
   align-self: center;
   padding: 20px;
+  color:rgb(244, 238, 62);
 }
 
 .article-box {
@@ -32,4 +33,17 @@ body, html {
   list-style-type: none;
   margin: 20px;
   padding: 5px;
+}
+
+.title {
+  color: rgb(57, 174, 247);
+}
+
+.author {
+  color:rgb(152, 210, 246)
+}
+
+.article-url {
+  text-decoration: underline;
+  color: rgb(115, 47, 210);
 }

@@ -38,7 +38,7 @@ const NewsContainer = () => {
         <div className="container">
             <section className="head">
                 <div className="header">
-                    <h1>*Hacker News Filter*</h1>
+                    <h1>*Hacker News*</h1>
                 </div>
                 <div className="form">
                     <form onSubmit={handleSubmit}>
